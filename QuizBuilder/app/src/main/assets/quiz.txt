@@ -1,0 +1,13 @@
+Word 'RAM' stands for,Random Access Memory, Read Access Memory, Read Arithmetic Memory,Random, Arithmetic Memory
+A teletypewriter terminal is an example of,Input/Output Devices,Input Devices,Output Devices,Storage Devices,
+Devices that accept data from outside computer and transfer into CPU are called,Input Devices,Digital Devices,Analogue Devices,Truth Table Peripherals
+Central Processing Unit (CPU) consists of,All of these,Control Unit,Arithmetic and logic unit,main store
+The brain of any computer system is,CPU,ALU,Memory,Control Unit
+The binary system uses powers of,2,10,8,16
+The Operating System is a,System Software,Application Software, Utility Software,Malware
+Files are Organized in,Directories,RAM,Cache,None of the Above
+The process of carrying out a command is called,Executing,Fetching,Controlling,Storing
+A hard drive contains spinning objects known as,Platters,Memory Holders,CD-Roms,RAM
+A hard drive contains spinning objects known as,Platters,Memory Holders,CD-Roms,RAM
+A hard drive contains spinning objects known as,Platters,Memory Holders,CD-Roms,RAM
+A hard drive contains spinning objects known as,Platters,Memory Holders,CD-Roms,RAM

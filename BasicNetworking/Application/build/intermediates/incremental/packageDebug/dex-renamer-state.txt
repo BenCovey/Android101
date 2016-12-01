@@ -1,0 +1,7 @@
+#Wed Nov 16 15:22:24 AST 2016
+base.0=C\:\\Users\\benvc\\AndroidStudioProjects\\BasicNetworking\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_fd7af452e013e1993d2104cc1597ea16bc9138ac
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\benvc\\AndroidStudioProjects\\BasicNetworking\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2aa4d6cd5a3f0e6fa79015554b14da489366cf75\\classes.dex
+base.1=C\:\\Users\\benvc\\AndroidStudioProjects\\BasicNetworking\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2aa4d6cd5a3f0e6fa79015554b14da489366cf75
+file.0=C\:\\Users\\benvc\\AndroidStudioProjects\\BasicNetworking\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_fd7af452e013e1993d2104cc1597ea16bc9138ac\\classes.dex

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quiz Builder</string>
+    <string name="tvName">Enter your Name!</string>
+    <string name="btnContinue">Continue</string>
+    <string name="tvContinue">Click to continue to quiz.</string>
+    <string name="tvWelcome">Welcome </string>
+    <string name="btnBack">Back</string>
+    <string name="btnNext">Next</string>
+    <string name="btnChoice1">A</string>
+    <string name="btnChoice2">B</string>
+    <string name="btnChoice3">C</string>
+    <string name="btnChoice4">D</string>
+    <string name="tvDefintion">Definition</string>
+    <string name="tvChoice1">Choice1</string>
+    <string name="tvChoice2">Choice2</string>
+    <string name="tvChoice3">Choice3</string>
+    <string name="tvChoice4">Choice4</string>
+
+
+
+
+</resources>

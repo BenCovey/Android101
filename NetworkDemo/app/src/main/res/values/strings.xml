@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NetworkDemo</string>
+    <string name="NETTEST">Net Test</string>
+</resources>

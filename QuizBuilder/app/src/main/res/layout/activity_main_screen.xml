@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBack"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="@string/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNext"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/btnBack"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tvDefintion"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/tvDefintion"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/darker_gray"
+            android:textAllCaps="false"
+            android:textIsSelectable="false"
+            android:minLines="2"
+            android:maxLines="4"
+            android:layout_height="160dp"
+            android:editable="false" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/tvDefintion"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnOne"
+                    android:layout_above="@+id/btnThree"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_height="75dp"
+                    android:layout_width="205dp" />
+
+                <Button
+                    android:layout_height="75dp"
+                    android:id="@+id/btnTwo"
+                    android:layout_above="@+id/btnFour"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="74dp"
+                    android:layout_width="205dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="90dp"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:layout_height="75dp"
+                    android:id="@+id/btnFour"
+                    android:layout_marginBottom="81dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="205dp" />
+
+                <Button
+                    android:layout_height="75dp"
+                    android:id="@+id/btnThree"
+                    android:layout_below="@+id/btnTwo"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="205dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/tvChoice1"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="295dp"
+            android:id="@+id/tvChoice1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_marginLeft="5dp"
+            android:layout_width="185dp"
+            android:editable="false"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textColor="?attr/actionMenuTextColor" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/tvChoice2"
+            android:ems="10"
+            android:layout_marginTop="295dp"
+            android:id="@+id/tvChoice2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="185dp"
+            android:editable="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/tvChoice3"
+            android:ems="10"
+            android:id="@+id/tvChoice3"
+            android:layout_below="@+id/btnBack"
+            android:layout_alignLeft="@+id/tvDefintion"
+            android:layout_alignStart="@+id/tvDefintion"
+            android:layout_marginTop="400dp"
+            android:layout_width="175dp"
+            android:editable="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:layout_marginLeft="5dp"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <EditText
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/tvChoice4"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="445dp"
+            android:id="@+id/tvChoice4"
+            android:editable="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:clickable="false"
+            android:contextClickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+    </RelativeLayout>
+
+</LinearLayout>
